@@ -8,7 +8,6 @@
 
 	<properties>
 		<spring.version>4.3.3.RELEASE</spring.version>
-		<spring.security.version>4.1.3.RELEASE</spring.security.version>
 		<spring.jpa.version>1.7.1.RELEASE</spring.jpa.version>
 		<hibernate.version>4.3.6.Final</hibernate.version>
 		<hibernate.javax.persistence.version>1.0.0.Final</hibernate.javax.persistence.version>
@@ -51,19 +50,6 @@
 	</build>
 
 	<dependencies>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-config</artifactId>
-			<version>${spring.security.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-web</artifactId>
-			<version>${spring.security.version}</version>
-		</dependency>
-
 
 		<dependency>
 			<groupId>org.hibernate.javax.persistence</groupId>
