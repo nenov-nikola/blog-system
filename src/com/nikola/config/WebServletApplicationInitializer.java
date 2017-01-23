@@ -32,7 +32,7 @@ public class WebServletApplicationInitializer extends WebMvcConfigurerAdapter {
 	@Bean
 	public ReloadableResourceBundleMessageSource messageSource() {
 		ReloadableResourceBundleMessageSource messageSource = new ReloadableResourceBundleMessageSource();
-		messageSource.setBasenames("/WEB-INF/props/configure", "/WEB-INF/props/sql");
+		messageSource.setBasename("/WEB-INF/props/configure");
 		messageSource.setDefaultEncoding("UTF-8");
 		messageSource.setCacheSeconds(60);
 		return messageSource;
