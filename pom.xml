@@ -7,7 +7,7 @@
 	<packaging>war</packaging>
 
 	<properties>
-		<spring.version>4.3.3.RELEASE</spring.version>
+		
 		<spring.jpa.version>1.7.1.RELEASE</spring.jpa.version>
 		<hibernate.version>4.3.6.Final</hibernate.version>
 		<hibernate.javax.persistence.version>1.0.0.Final</hibernate.javax.persistence.version>
