@@ -1,2 +1,2 @@
 # blog-system
-blog system for collaboration with articles/authors
+Blog system for collaboration with articles/authors
