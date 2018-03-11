@@ -43,7 +43,7 @@ public class ArticleDaoImpl implements ArticleDao {
 		@SuppressWarnings("unchecked")
 		List<ArticleModel> articles = session
 				.createSQLQuery(
-						"select articleId, articleName, articleBody, articleAuthor from articles order by articleId DESC")
+				"select articleId, articleName, articleBody, articleAuthor from articles order by articleId DESC")
 				.addScalar("articleId", IntegerType.INSTANCE).addScalar("articleName", StringType.INSTANCE)
 				.addScalar("articleBody", StringType.INSTANCE).addScalar("articleAuthor", StringType.INSTANCE)
 				.setResultTransformer(Transformers.aliasToBean(ArticleModel.class)).setMaxResults(5).list();
