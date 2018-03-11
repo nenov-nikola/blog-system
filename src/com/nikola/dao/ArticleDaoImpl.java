@@ -20,7 +20,7 @@ import com.nikola.model.ArticleModel;
 @Transactional
 public class ArticleDaoImpl implements ArticleDao {
 
-	//@PersistenceContext
+	@PersistenceContext
 	private EntityManager em;
 
 	@Override
