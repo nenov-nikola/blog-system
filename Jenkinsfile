@@ -1,10 +1,15 @@
 pipeline {
-    agent { dockerfile true }
-    stages {
-        stage('Test') {
+    agent {dockerfile true}
+    stages{
+        stage('Build'){
             steps {
-                sh 'node --version'
-                sh 'svn --version'
+                sh 'mvn clean install'
+            }
+            post {
+                success {
+                    echo 'Now Archiving...'
+                    archiveArtifacts artifacts: '**/target/*.war'
+                }
             }
         }
     }
