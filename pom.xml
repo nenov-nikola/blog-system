@@ -9,7 +9,7 @@
 
 	<properties>
 		
-		<spring.jpa.version>1.7.1.RELEASE</spring.jpa.version>
+		<spring.jpa.version>1.11.23.RELEASE</spring.jpa.version>
 		<hibernate.version>4.3.6.Final</hibernate.version>
 		<hibernate.javax.persistence.version>1.0.0.Final</hibernate.javax.persistence.version>
 		<jstl.version>1.2</jstl.version>
