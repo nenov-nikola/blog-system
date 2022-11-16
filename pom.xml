@@ -22,7 +22,7 @@
 		<apache.log4j.version>1.2.17</apache.log4j.version>
 		<apache.cxf.version>3.1.6</apache.cxf.version>
 		<commons.httpclient>3.1</commons.httpclient>
-		<jackson.databind>2.5.0</jackson.databind>
+		<jackson.databind>2.12.7.1</jackson.databind>
 		<log4j.version>1.2.17</log4j.version>
 		<itext.version>5.0.6</itext.version>
 		<google.gson>2.8.0</google.gson>
